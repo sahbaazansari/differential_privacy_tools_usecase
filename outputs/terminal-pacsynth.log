@@ -1,0 +1,17 @@
+sahbaaz.ansari@UNIK736VYNJJX smartnoise_ministry_examples % python3 smartnoise_synth/PACSYNTH.py 
+Spent 1.0 epsilon on preprocessor, leaving 2.0 for training
+Fitting with 2861295840 dimensions
+     Unnamed: 0  state     puma  sex  age  educ   income  latino  black  asian  married
+0             1    6.0  60100.0  0.0   61  11.0  36864.0     0.0    0.0    0.0      0.0
+1             2    6.0  60100.0  0.0   61   9.0  36864.0     0.0    1.0    0.0      1.0
+2             3    6.0  60100.0  1.0   40   9.0  36864.0     0.0    0.0    0.0      1.0
+3             4    6.0  60100.0  1.0   62   9.0  36864.0     0.0    1.0    0.0      1.0
+4             5    6.0  60100.0  1.0   77  14.0  36864.0     0.0    0.0    0.0      1.0
+..          ...    ...      ...  ...  ...   ...      ...     ...    ...    ...      ...
+995         996    NaN  63302.0  NaN   71   4.0  36864.0     0.0    0.0    0.0      NaN
+996         997    6.0  63901.0  1.0   77   6.0      NaN     0.0    0.0    NaN      NaN
+997         998    6.0  65800.0  NaN   73   7.0      NaN     NaN    0.0    0.0      0.0
+998         999    6.0  67900.0  0.0   82   8.0  36864.0     1.0    NaN    NaN      1.0
+999        1000    NaN  65403.0  NaN   23  15.0      NaN     0.0    1.0    NaN      1.0
+
+[1000 rows x 11 columns]
