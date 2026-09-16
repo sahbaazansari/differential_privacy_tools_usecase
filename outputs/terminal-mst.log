@@ -1,0 +1,21 @@
+(.venv) X@UNIK736VYNJJX smartnoise_ministry_examples % python3 smartnoise_synth/MST.py 
+Spent 1.0 epsilon on preprocessor, leaving 2.0 for training
+Fitting with 87086080 dimensions
+Getting cliques
+/Users/X/Differential_Privacy/smartnoise_ministry_examples/.venv/lib/python3.11/site-packages/mbi/dataset.py:87: UserWarning: Pandas dataframe inputs are deprecated, please pass in a dictionary of numpy arrays instead.
+  warnings.warn(
+Estimating marginals
+     Unnamed: 0  state   puma  sex  age  educ    income  latino  black  asian  married
+0             1      6  60100    0   18     7   36864.0       0      0      0        0
+1             2      6  60100    0   18     8   36864.0       0      0      0        0
+2             3      6  60100    0   18     9   36864.0       0      0      0        0
+3             4      6  60100    0   18    10   36864.0       0      0      0        0
+4             5      6  60100    0   19    11   36864.0       0      0      0        0
+..          ...    ...    ...  ...  ...   ...       ...     ...    ...    ...      ...
+995         996      6  68200    1   88     1   36864.0       1      0      0        1
+996         997      6  68200    1   86     5   36864.0       1      0      0        1
+997         998      6  68200    0   93     9  356352.0       1      0      0        1
+998         999      6  68200    0   88    11  356352.0       1      0      0        1
+999        1000      6  68200    1   82    16  356352.0       0      0      0        1
+
+[1000 rows x 11 columns]

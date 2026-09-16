@@ -1,0 +1,8 @@
+import pandas as pd
+from snsynth import Synthesizer
+
+pums = pd.read_csv("PUMS_large.csv")
+synth = Synthesizer.create("mwem", epsilon=3.0, split_factor=3, verbose=True)
+synth.fit(pums, preprocessor_eps=1.0)
+pums_synth = synth.sample(1000)
+print(pums_synth)
